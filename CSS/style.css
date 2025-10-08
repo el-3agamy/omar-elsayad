@@ -1021,7 +1021,20 @@ footer updated :
     /* ****************section 1 ******************** */
 
    
+.sec1{
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../OMAR.jpg);
+    background-repeat: no-repeat ;
+    background-size:cover;
+    background-position:  center ;
+    background-attachment: fixed;
+    
+}
 
+.sec1>.cont>h2{
+    font-size: 1rem;
+}
     /* **************** section 2 ****************** */
 
     div.sec2{
@@ -1046,7 +1059,7 @@ footer updated :
   .sec2  .about table{
      
         width: 100%; 
-        font-size: 1em; 
+        font-size: 0.8em; 
         padding: 0;
         margin: 20px 0;
         
